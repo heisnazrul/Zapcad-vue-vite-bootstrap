@@ -1,0 +1,87 @@
+.business-section {
+    .business-card {
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 400px;
+        border-radius: 20px;
+        padding: 70px;
+        color: $white;
+        position: relative;
+        z-index: 1;
+        @include media-breakpoint-down(sm) {
+            height: 300px;
+            &:after {
+                content: '';
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                top: 0;
+                left: 0;
+                z-index: -1;
+                background-color: rgba($dark, 0.7);
+                border-radius: 20px;
+            }
+            .card-info {
+                text-align: center;
+            }
+        }
+        
+        &.onetap {
+            background-image: url('/src/assets/images/one-tap.jpg');
+            @include media-breakpoint-down(sm) {
+                background-position: 66%;
+            }
+        }
+        &.onsingle {
+            background-image: url('/src/assets/images/one-single.jpg');
+            @include media-breakpoint-down(sm) {
+                background-position: 15%;
+            }
+            .row {
+                justify-content: end;
+            }
+        }
+        &.onsinglepl {
+            background-image: url('/src/assets/images/Analitics.png'); //there is a bg image neeed
+            @include media-breakpoint-down(sm) {
+                background-position: 12%;
+            }
+            .row {
+                justify-content: end;
+            }
+        }
+        &.freeqr {
+            background-image: url('/src/assets/images/Freeqr.jpg');
+            @include media-breakpoint-down(sm) {
+                background-position: 90%;
+            }
+        }
+        &.cstmwgd {
+            background-image: url('/src/assets/images/Customwgd.jpg');
+            @include media-breakpoint-down(sm) {
+                background-position: 90%;
+            }
+        }
+        &.easyon {
+            background-image: url('/src/assets/images/easy-on.png');
+            @include media-breakpoint-down(sm) {
+                background-position: 10%;
+            }
+        }
+        .row {
+            height: 100%; 
+            align-items: center;
+        }
+        .card-info {
+            .title {
+                color: $light;
+            }
+            .desc {
+                color: $light;
+                font-size: 16px;
+            }
+        }
+        
+    }
+}

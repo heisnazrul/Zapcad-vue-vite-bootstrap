@@ -1,0 +1,10 @@
+.testimonial-section {
+    @include media-breakpoint-down(lg) {
+        .arrow__img {
+            width: 18px;
+        }
+    }
+    .carousel__slide {
+        margin-right: 10px;
+    }
+}

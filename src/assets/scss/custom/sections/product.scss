@@ -1,0 +1,44 @@
+.product-title{
+    font-weight: bold;
+    color: #252a3f;
+}
+.product-price{
+    font-weight: bold;
+}
+.bldt{
+    font-weight: bold;
+}
+.product-imagex{
+    width: 50%;
+    height: 50%;
+
+}
+.selected {
+    border: 2px solid red;
+  }
+  .clickable {
+    cursor: pointer;
+  }
+  .htln {
+    width: 8%;
+    color: #000;
+  }
+  .bld{
+    margin-left: 3%;
+    font-weight: bold;
+  }
+  @media (max-width: 991px) {
+    #tpmg {
+      width: 100%;
+      height: auto;
+    }
+  }
+  #szimg{
+    width: 100%; 
+    height: 300px;
+  }
+  @media (max-width: 991px) {
+  #szimg{
+    width:auto;
+    height: auto;
+  }} 

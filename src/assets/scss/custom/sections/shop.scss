@@ -1,0 +1,165 @@
+#shtp{
+  height: 75vh;
+}
+@media (max-width: 992px) {
+  #shtp {
+    height: 55vh;
+  }
+}
+  @media (max-width: 767px) {
+    #shtp {
+      height: 40vh;
+    }
+}
+@media (max-width: 991px) {
+  #my-heading {
+    font-size: 2rem; /* Adjust the font size as needed for normal devices */
+    font-weight: bold;
+  }
+}
+@media (max-width: 767px) {
+  #my-heading {
+    font-size: 1.5rem; /* Adjust the font size as needed for normal devices */
+    font-weight: bold;
+  }
+}
+
+.center-content {
+    display: flex;
+    padding-top: 10%;
+    padding-bottom: 10;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    background-image: url('/src/assets/images/s-bg.jpg');
+    background-size: cover;
+    background-color: #252a3f8f;
+    background-blend-mode: multiply;
+    
+    h2 {
+      font-weight: bold;
+      font-size: 36;
+    h2{
+        font-weight: bold;
+        font-size: 2.5rem;
+    }
+    }
+  }
+  .top-text {
+    font-weight: bold;
+  }
+  
+  .product-item {
+    text-align: left;
+    border-radius: 0.6rem 0.6rem 0 0;
+  
+    .product-image {
+      width: 100%;
+      height: 300px;
+      margin-bottom: 10px;
+      border-radius: 3%;
+    }
+    @media (max-width: 991px)
+    {.product-image {
+        width: 100%;
+        height: 200px;
+        margin-bottom: 10px;
+      }
+    }
+    @media (max-width: 575px)
+    {.product-image {
+        width: 100%;
+        height: 160px;
+        margin-bottom: 10px;
+      }
+    }
+  
+    .product-details {
+      text-align: left;
+      padding-left: 2%;
+    }
+  
+    .product-name {
+      font-weight: bold;
+      margin-bottom: 5px;
+      color: black;
+    }
+  
+    .product-price {
+      font-weight: bold;
+      margin-bottom: 5px;
+      color: black;
+    }
+  
+    .button-cart {
+      font-weight: bold;
+      color: black;
+      font-size: 12px;
+  
+      i {
+        font-weight: bold;
+        color: black;
+        font-size: 16px;
+        margin-right: 5px;
+      }
+    }
+  
+    .button-favorite {
+      font-size: 16px;
+      margin-left: 5px;
+  
+      i {
+        font-weight: bold;
+      }
+  
+      &.favorite {
+        color: red;
+        
+      }
+    }
+  }
+  .button-favorite {
+    position: relative;
+    overflow: hidden;
+    transition: color 0.2s;
+  
+    &:hover,
+    &.favorite {
+      color: red;
+      fill: red;
+    }
+    .bi-heart-fill{
+      color: red;
+    }
+  
+    i {
+      font-weight: bold;
+    }
+  }
+  .circle-border {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    border: 0.1px solid black;
+    margin-bottom: 10px;
+  
+    i {
+      font-size: 24px;
+      font-weight: bold;
+    }
+  }
+  
+  .ttle {
+    font-weight: bold;
+    font-size: 16px; /* Adjust the font size as per your preference */
+  }
+  .sbubtitle {
+    font-size: 12px; /* Adjust the font size as per your preference */
+  }
+  .ttxl{
+    font-weight: bold;
+  }

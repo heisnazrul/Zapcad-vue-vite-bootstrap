@@ -1,0 +1,66 @@
+<template> 
+  <div class="container pt-2">
+    <div class="row mx-0 my-3 px-0"><h4 class="bldt">Contact Us</h4></div>
+    <div class="row mx-2 p-4 bg-white">
+    <div class="col"><h6 class="bldt pb-4 ">Please provide your information and we will respond within 24 hours.</h6></div>
+    <!-- Contact form-->  
+    <form>
+        <div class="row">
+        <div class="col-md-6 mb-3">
+          <label for="name" class="form-label text-black">Name</label>
+          <input type="text" class="form-control" id="name" placeholder="Enter your name">
+        </div>
+        <div class="col-md-6 mb-3">
+          <label for="email" class="form-label text-black">Email</label>
+          <input type="text" class="form-control" id="email" placeholder="Enter your email">
+        </div></div>
+        <div class="row">
+        <div class="col-md-6 mb-3">
+          <label for="phone" class="form-label text-black">Phone</label>
+          <input type="tel" class="form-control" id="phone" placeholder="Enter your phone number">
+        </div>
+        <div class="col-md-6 mb-3">
+  <label for="department" class="form-label text-black">What can we help you with?</label>
+  <select class="form-select" id="department" aria-label="Department">
+    <option selected >I’m looking for a digital business card for my company</option>
+    <option value="dept1">I’m looking for a digital business card for myself</option>
+    <option value="dept2">My company would like to collaborate with Zapkad</option>
+    <option value="dept3">Others</option>
+  </select>
+</div> </div>
+        <div class="col-md-12">
+          <div class="mb-3">
+          <label for="message" class="form-label text-black">Message</label>
+          <textarea class="form-control" id="message" rows="4" placeholder="Enter your message"></textarea>
+        </div>
+        </div>
+        <div class="col-6">
+          <div class="col-6 d-flex" style="width: 100%;"><button type="submit" class="btn btn-dark px-5 d-none d-md-block">Send <i class="bi bi-send-fill px-3"></i></button>
+            <button type="submit" class="btn d-md-none btn-dark px-4 py-2">
+        Send
+        <i class="bi bi-send-fill ml-2"></i>
+    </button></div>
+    
+</div>
+        <div class="col-6 d-none d-md-block"></div>
+      </form>
+    
+  </div>
+  </div>
+  <!--Contact Details-->
+  <div class="container my-4">
+    <div class="row mx-2 p-4 bg-white">
+        <h6 class="bldt pb-2 pt-2">USA & Latin America</h6>
+        <p class="py-0 my-0 text-black">West Telco</p>
+        <p class="py-0 my-0 text-black">dduran@westtelco.com.mx</p>
+    
+    <h6 class="bldt pb-2 pt-4">Asia</h6>
+        <p class="py-0 my-0 text-black">Zapkad Pte Ltd</p>
+        <p class="py-0 my-0 text-black">ryan@zapkad.com</p>
+        <p class="py-0 my-0 text-black">+65 9340 1813</p>
+    
+    <h6 class="bldt pb-2 pt-4">Europe</h6>
+        <p class="py-0 my-0 text-black">West Telco Europa </p>
+        <p class="py-0 my-0 text-black">funter@westtelcoeuropa.es</p>
+  </div></div>
+</template>
