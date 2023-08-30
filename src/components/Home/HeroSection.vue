@@ -12,7 +12,7 @@
                         <a href="#" class="ms-4">
                             <img src="@/assets/images/Playstore.png" class="img-fluid" alt="QR Code" />
                         </a>
-                        <img src="@/assets/images/Zapkad QR.png" class="img-fluid d-none d-sm-block qrcd ms-4" alt="QR Code" />
+                        <img src="@/assets/images/QR.png" class="img-fluid d-none d-sm-block qrcd ms-4" alt="QR Code" />
                         
                     </div>
                 </div>

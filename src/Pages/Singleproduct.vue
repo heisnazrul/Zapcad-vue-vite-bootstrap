@@ -16,7 +16,7 @@
             <img src="/src/assets/images/card/3.jpg" style="height: 100px; width: 150px;" class="img-fluid clickable" :class="{ 'selected': selectedImage === '/src/assets/images/card/3.jpg' }" @click="selectImage('/src/assets/images/card/3.jpg')" onclick="document.getElementById('tpmg').src='/src/assets/images/card/3.jpg'">
           </div>
           <div class="col-3 pl-0">
-            <img src="/src/assets/images/card/4.png" style="height: 100px; width: 150px;" class="img-fluid clickable" :class="{ 'selected': selectedImage === '/src/assets/images/card/4.png' }" @click="selectImage('/src/assets/images/card/4.png')" onclick="document.getElementById('tpmg').src='/src/assets/images/card/4.png'">
+            <img src="/src/assets/images/card/4.jpg" style="height: 100px; width: 150px;" class="img-fluid clickable" :class="{ 'selected': selectedImage === '/src/assets/images/card/4.jpg' }" @click="selectImage('/src/assets/images/card/4.jpg')" onclick="document.getElementById('tpmg').src='/src/assets/images/card/4.jpg'">
           </div>
         </div>
       </div>

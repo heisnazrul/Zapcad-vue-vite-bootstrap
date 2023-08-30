@@ -297,7 +297,7 @@
 <div class="container">
       <div class="row center-content p-5 mx-2 my-4">
         <div class="col-md-6 col-sm-12">
-  <img src="/src/assets/images/one-single.png" alt="Image" class="img-fluid">
+  <img src="/src/assets/images/one-single.jpg" alt="Image" class="img-fluid">
 </div>
         <div class="col-md-6 col-sm-12">
           <h4 class="ttxl text-white">Limited Offer</h4>
